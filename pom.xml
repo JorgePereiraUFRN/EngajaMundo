@@ -9,7 +9,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
           <packaging>war</packaging>
 
         <dependencies>
-
+        
+        
                 <dependency>
                         <groupId>junit</groupId>
                         <artifactId>junit</artifactId>
@@ -118,6 +119,22 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                                                 
                                         </configuration>
                                 </plugin>
+                                
+                                <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes>
+
+                    <overlays>
+                        <overlay>
+                            <excludes>
+                                <exclude>**/web.xml</exclude>
+                            </excludes>
+                        </overlay>
+                    </overlays>
+                </configuration>
+            </plugin>
 
                                 <plugin>
                                         <groupId>org.apache.maven.plugins</groupId>
