@@ -99,7 +99,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                                         <artifactId>coveralls-maven-plugin</artifactId>
                                         <version>2.0.1</version>
                                         <configuration>
-                                                <repoToken>TRIqsbY2NtNt9DEpPPvDuW1Ss5Ry4QTnZ</repoToken>
+                                                <repoToken>qoAyLhAi1xxehiDpueLD6MnyJds8hx8xJ</repoToken>
                                                 <instrumentation>
                                                         <excludes>
                                                                 <exclude>**/Test*.class</exclude>
