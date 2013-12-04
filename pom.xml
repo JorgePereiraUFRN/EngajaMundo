@@ -6,6 +6,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <groupId>xd001</groupId>
         <artifactId>engajamundo</artifactId>
         <version>1.0</version>
+          <packaging>war</packaging>
 
         <dependencies>
 
