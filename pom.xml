@@ -125,6 +125,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes>
+                     <webXml>Engajamundo\src\main\webapp\WEB-INF\web.xml</webXml> 
 
                     <overlays>
                         <overlay>
@@ -135,6 +136,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                     </overlays>
                 </configuration>
             </plugin>
+            
+            
 
                                 <plugin>
                                         <groupId>org.apache.maven.plugins</groupId>
